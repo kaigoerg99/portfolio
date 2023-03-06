@@ -1,7 +1,7 @@
 import React, {useState, useEffect, useContext} from "react";
 import { DarkModeContext } from "../../context/themeContext";
 import LeftContainer from "../LeftContainer/LeftContainer";
-import LightDarkButtons from "../LightDarkButtons/LightDarkButtons";
+import LightDarkButtons from "../LightDarkButtonsContainer/LightDarkButtons";
 import './MainContainer.css';
 
 const MainContainer = () => {
