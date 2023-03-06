@@ -2,6 +2,7 @@ import React, {useState, useEffect, useContext} from "react";
 import { DarkModeContext } from "../../context/themeContext";
 import LeftContainer from "../LeftContainer/LeftContainer";
 import LightDarkButtons from "../LightDarkButtonsContainer/LightDarkButtons";
+import RightContainer from "../RightContainer/RightContainer";
 import './MainContainer.css';
 
 const MainContainer = () => {
@@ -29,7 +30,8 @@ const MainContainer = () => {
                 height: windowSize[1] - 100
             }}
         >
-            <LeftContainer className="LeftContainer"/>
+            <LeftContainer/>
+            <RightContainer/>
             <LightDarkButtons/>
         </div>
     )
