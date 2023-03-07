@@ -12,6 +12,7 @@
 
 .Link {
     text-decoration: none;
+    margin-bottom: 30px;
 }
 
 .Link:hover {
@@ -24,4 +25,9 @@
 
 .Link-light {
     color: black;
+}
+
+nav a.active {
+    font-weight: 600;
+    font-size: 30px;
 }

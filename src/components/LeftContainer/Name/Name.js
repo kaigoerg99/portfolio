@@ -3,7 +3,7 @@ import './Name.css'
 
 const Name = () => {
     return (
-        <div className="Name">
+        <div className="NameContainer">
             Kai Gorg
         </div>
     );
