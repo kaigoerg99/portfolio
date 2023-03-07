@@ -1,8 +1,9 @@
 import React from "react";
-import { Routes, Route, Outlet } from "react-router-dom";
-import Home from '../Home.js';
-import About from '../NoPage';
 import './RightContainer.css';
+import { Routes, Route, Outlet } from "react-router-dom";
+import Home from "./Home/Home";
+import Projects from "./Projects/Projects";
+import Contact from "./Contact/Contact";
 
 const RightContainer = () => {
     return (
@@ -10,8 +11,8 @@ const RightContainer = () => {
             <Routes>
                 <Route path="/" element={<Outlet/>}>
                     <Route index element={<Home/>}/>
-                    <Route path="projects" element={<About/>}/>
-                    <Route path="contact" element={<About/>}/>
+                    <Route path="projects" element={<Projects/>}/>
+                    <Route path="contact" element={<Contact/>}/>
                 </Route>
             </Routes>
         </div>     
