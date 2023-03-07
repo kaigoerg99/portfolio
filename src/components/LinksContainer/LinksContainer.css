@@ -1,7 +1,22 @@
 .LinksContainer {
     height: 100%;
     width: 100%;
-    margin-top: 100px;
+    margin-bottom: 100px;
     display: flex;
-    
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    font-size: 22px;
+}
+
+.Link {
+    text-decoration: none;
+}
+
+.Link-dark {
+    color: white;
+}
+
+.Link-light {
+    color: black;
 }

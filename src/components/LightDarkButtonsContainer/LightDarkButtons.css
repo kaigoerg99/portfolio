@@ -13,22 +13,44 @@
 .Button {
     height: 30px;
     width: 30px;
-    opacity: 100%;
-    border: solid black;
-    border-width: 3px;
     margin-right: 5px;
     box-sizing: border-box;
     cursor: pointer;
+    transition: 1s;
 }
 
-.Button-selected {
+.Button-light-selected {
+    border-color: white;
+    background-color: white;
+}
+
+.Button-dark-selected {
+    border-color: black;
     background-color: black;
 }
 
+.Button-light-not-selected {
+    border: solid white;
+    border-width: 1px;
+}
+
+.Button-dark-not-selected {
+    border: solid black;
+    border-width: 1px;
+}
+
 .ButtonText {
-    color: black;
     font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
+    /* font-weight: bold; */
     margin-right: 10px;
+    transition: 1s;
+}
+
+.ButtonText-dark {
+    color: black;
+}
+
+.ButtonText-light {
+    color: white;
 }
