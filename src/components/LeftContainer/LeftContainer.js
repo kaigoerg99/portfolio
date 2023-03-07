@@ -1,5 +1,5 @@
 import React from "react";
-import LinksContainer from "../LinksContainer/LinksContainer";
+import Navbar from "../Navbar/Navbar.js"
 import NameContainer from "../NameContainer/NameContainer";
 import RolesContainer from "../RolesContainer/RolesContainer";
 import './LeftContainer.css';
@@ -9,7 +9,7 @@ const LeftContainer = () => {
         <div className="LeftContainer">
             <NameContainer/>
             <RolesContainer/>
-            <LinksContainer/>
+            <Navbar/>
         </div>
     );
 }
