@@ -1,14 +1,14 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar.js"
-import NameContainer from "../NameContainer/NameContainer";
-import RolesContainer from "../RolesContainer/RolesContainer";
+import Name from "./Name/Name.js"
+import Subtitle from "./Subtitle/Subtitle.js";
 import './LeftContainer.css';
 
 const LeftContainer = () => {
     return (
         <div className="LeftContainer">
-            <NameContainer/>
-            <RolesContainer/>
+            <Name/>
+            <Subtitle/>
             <Navbar/>
         </div>
     );
