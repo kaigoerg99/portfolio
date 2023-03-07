@@ -8,7 +8,7 @@ const Navbar = () => {
     const linkClass = darkMode ? "Link Link-dark" : "Link Link-light";
     return (
         <nav className="Navbar">
-            <NavLink className={linkClass} to="/">Home</NavLink>
+            <NavLink className={linkClass} to="/">About</NavLink>
             <NavLink className={linkClass} to="/projects">Projects</NavLink>
             <NavLink className={linkClass} to="/contact">Contact</NavLink>   
         </nav>

@@ -13,10 +13,12 @@
 .Link {
     text-decoration: none;
     margin-bottom: 30px;
+    transition: 0.5s;
 }
 
 .Link:hover {
-    font-weight: 600;
+    /* font-weight: 600; */
+    font-size: 30px;
 }
 
 .Link-dark {
