@@ -1,0 +1,18 @@
+.ContactContainer {
+
+}
+
+.ContactLink {
+    text-decoration: none;
+    font-size: 32px;
+    margin-right: 50px;
+    transition: 1s;
+}
+
+.ContactLink-dark {
+    color: white;
+}
+
+.ContactLink-light {
+    color: black;
+}
