@@ -4,7 +4,7 @@ import './Subtitle.css';
 const Subtitle = () => {
     return (
         <div className="Subtitle">
-            Web Developer • Front-End Engineer
+            Web Developer | Front-End Engineer
         </div>
     );
 }
