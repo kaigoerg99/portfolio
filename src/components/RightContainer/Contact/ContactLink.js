@@ -11,7 +11,7 @@ const ContactLink = (props) => {
     return (
         <a className={darkMode ? 'ContactLink ContactLink-dark' : 'ContactLink ContactLink-light'} href={props.href} target={props.target}>
             <FontAwesomeIcon icon={props.icon} className={props.className}/>
-            {props.name}
+            <span className='ContactLinkText'>{props.name}</span>
         </a>
     );
 }

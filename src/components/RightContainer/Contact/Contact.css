@@ -6,23 +6,11 @@
     width: 100%;
 }
 
-.EmailIcon {
-    font-size: 100px;
-}
-
-.LinkedinIcon {
-    font-size: 100px;
-}
-
 .ContactLink {
     text-decoration: none;
-    font-size: 32px;
     display: flex;
     flex-direction: column;
-}
-
-.ContactLink:hover {
-    font-weight: 600;
+    font-size: 100px;
 }
 
 .ContactLink-dark {
@@ -31,4 +19,8 @@
 
 .ContactLink-light {
     color: black;
+}
+
+.ContactLinkText {
+    font-size: 32px;
 }

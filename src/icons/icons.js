@@ -1,9 +1,9 @@
-import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope, faFileLines } from '@fortawesome/free-solid-svg-icons';
+import { faLinkedin, faSquareGithub } from '@fortawesome/free-brands-svg-icons';
 import { library } from '@fortawesome/fontawesome-svg-core';
 
 const importIcons = () => {
-    library.add([faEnvelope, faLinkedin]);
+    library.add([faEnvelope, faLinkedin, faSquareGithub, faFileLines]);
 }
 
 export default importIcons;
