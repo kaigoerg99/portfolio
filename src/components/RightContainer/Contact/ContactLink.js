@@ -1,11 +1,18 @@
 import React, { useContext } from 'react';
 import { DarkModeContext } from '../../../context/themeContext';
 import './Contact.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import importIcons from '../../../icons/icons';
+
+importIcons();
 
 const ContactLink = (props) => {
     const {darkMode} = useContext(DarkModeContext);
     return (
-        <a className={darkMode ? 'ContactLink ContactLink-dark' : 'ContactLink ContactLink-light'} href={props.href} target={props.target}>{props.name}</a>
+        <a className={darkMode ? 'ContactLink ContactLink-dark' : 'ContactLink ContactLink-light'} href={props.href} target={props.target}>
+            <FontAwesomeIcon icon={props.icon} className={props.className}/>
+            {props.name}
+        </a>
     );
 }
 
