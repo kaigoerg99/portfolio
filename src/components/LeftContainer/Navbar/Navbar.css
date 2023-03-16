@@ -6,7 +6,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    font-size: 32px;
+    font-size: 22px;
 
 }
 
@@ -17,7 +17,7 @@
 }
 
 .Link:hover {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .Link-dark {

@@ -1,5 +1,15 @@
-.Home {
-    font-size: 22px;
-    max-width: 50%;
+.HomeContainer {
     text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.ProfilePicture {
+    width: 300px;
+}
+
+.Text {
+    font-size: 22px;
 }
