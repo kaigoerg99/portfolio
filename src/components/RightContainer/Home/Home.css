@@ -7,7 +7,22 @@
 }
 
 .ProfilePicture {
-    width: 300px;
+    width: 500px;
+}
+
+.TextContainer {
+    display: flex;
+    padding-left: 50px;
+    max-width: 500px;
+    flex-direction: column;
+    height: 500px;
+    align-items: flex-start;
+    justify-content: space-between;
+    align-self: flex-start;
+}
+
+.Heading {
+    font-size: 50px;
 }
 
 .Text {

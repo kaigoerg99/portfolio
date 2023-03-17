@@ -6,9 +6,14 @@ const Home = () => {
     return (
         <div className="HomeContainer">
             <img src={profilePicture} alt='profilePicture' className='ProfilePicture'/>
-            <span className="Text">
-                Web developer born in Singapore in 1999. With an eye for design and a passion for visual creation, I build websites with the purpose of making the best user experience possible. I believe that minimalism is the cornerstone of effective and beautiful design. 
-            </span>
+            <div className="TextContainer">
+                <span className="Heading">
+                    A designer & gamer at heart.
+                </span>
+                <p className="Text">
+                    Web developer born in Singapore in 1999. With an eye for design and a passion for visual creation, I build websites with the purpose of making the best user experience possible. I believe that minimalism is the cornerstone of effective and beautiful design. 
+                </p>
+            </div>
         </div>
     )
 }
