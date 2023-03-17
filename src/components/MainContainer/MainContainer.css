@@ -1,6 +1,5 @@
 .MainContainer {    
     display: flex;
-    opacity: 90%;
     border-width: 0.1px;
     padding: 50px;
     box-sizing: border-box;
@@ -9,12 +8,11 @@
 }
 
 .MainContainer-dark {
-    background-color: black;
+    background-color: rgba(0,0,0,0.9);
     color: white;
-    /* border: solid white; */
 }
 
 .MainContainer-light {
-    background-color: white;
+    background-color: rgba(255,255,255,0.9);
     color: black;
 }
